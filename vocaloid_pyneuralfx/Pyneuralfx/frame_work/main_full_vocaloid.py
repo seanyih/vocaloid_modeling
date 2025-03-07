@@ -16,7 +16,7 @@ from dataset_vocaloid import Full_Modeling_Vocaloid_AudioDataset
 # ============================================================ #
 # Load config from yaml files 
 cmd = {
-    'config': './configs/cnn/tcn/concat_tcn.yml'
+    'config': './configs/cnn/tcn/film_tcn.yml'
 }
 
 args = utils.load_config(cmd['config'])

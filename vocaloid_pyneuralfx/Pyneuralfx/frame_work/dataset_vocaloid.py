@@ -87,7 +87,7 @@ class Full_Modeling_Vocaloid_AudioDataset(torch.utils.data.Dataset):
             
             # extract condition value 
             __conds_candidates = []
-            for i in range(1, len(raw_conds)):
+            for i in range(0, len(raw_conds)):
                 __conds_candidates.append(float(raw_conds[i]))
             
             # normalization 
