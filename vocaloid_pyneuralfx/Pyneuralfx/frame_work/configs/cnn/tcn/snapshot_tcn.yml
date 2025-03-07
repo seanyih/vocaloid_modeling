@@ -3,12 +3,12 @@ data:
   sampling_rate: 44100
   inp_channels: 1
   out_channels: 1
-  train_x_path: ../../../data/audio/sv_teto_0_0_0_0_MixDown.wav
-  train_y_path: ../../../data/audio/sv_teto_0_1_1_1_MixDown.wav
-  valid_x_path: ../../../data/audio/sv_teto_0_0_0_0_MixDown.wav
-  valid_y_path: ../../../data/audio/sv_teto_0_1_1_1_MixDown.wav
-  test_x_path: ../../../data/audio/sv_teto_0_0_0_0_MixDown.wav
-  test_y_path: ../../../data/audio/sv_teto_0_1_1_1_MixDown.wav
+  train_x_path: ../../../data/audio/x/sv_teto_0_0_0_0.wav
+  train_y_path: ../../../data/audio/y/sv_teto_0_1_1_1.wav
+  valid_x_path: ../../../data/audio/x/sv_teto_0_0_0_0.wav
+  valid_y_path: ../../../data/audio/y/sv_teto_0_1_1_1.wav
+  test_x_path: ../../../data/audio/x/sv_teto_0_0_0_0.wav
+  test_y_path: ../../../data/audio/y/sv_teto_0_1_1_1.wav
 model:
   arch: snapshot-tcn
   n_blocks: 9
